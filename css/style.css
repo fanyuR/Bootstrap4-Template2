@@ -2,16 +2,77 @@
     padding: 0px;
 }
 
+.navbar {
+ height:32px; 
+}
+
 .parallax1 {
     min-height: 700px;
     padding: 200px 50px;
     background: transparent;
     background-size: cover;
 }
+.s1-nav {
+    z-index: 2;
+    position: relative;
+    margin-top: -190px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar {
+    padding-right: 0px ;
+}
+
+.nav-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Hind, sans-serif;
+    letter-spacing: 0.2em;
+    padding: 05px 5px;
+    color: #595959;
+    display: block;
+    text-decoration: none;
+}
+
+.effect-underline:after {
+  content: '';
+  position: relative;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.dropdown-menu {
+    width: 220px;
+    padding: 4px 15px 4px 20px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: Hind, sans-serif;
+    text-align: left;
+}
 
 .s1-context {
     z-index: 2;
     position: relative;
+    margin-top: 190px;
 }
 
 .s1-title {
